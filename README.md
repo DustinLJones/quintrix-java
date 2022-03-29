@@ -1,1 +1,1 @@
-# quintrix-java
+# Quintrix Java Full Stack
