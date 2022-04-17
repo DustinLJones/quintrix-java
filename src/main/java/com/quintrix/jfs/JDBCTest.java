@@ -17,8 +17,7 @@ public class JDBCTest {
     try {
       // Connect to database
       Class.forName("com.mysql.cj.jdbc.Driver");
-      connection =
-          DriverManager.getConnection("jdbc:mysql://localhost:3306/world", "root", "Blackocean12!");
+      connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/world", "root", "");
 
       // Insert data into table
       insertStmt = connection.createStatement();
